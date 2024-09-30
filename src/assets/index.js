@@ -42,8 +42,8 @@ import anm from "./education/anm.png";
 import form from "./projects/form.png";
 import hms from './projects/hms.png';
 
-import hack from "./events/hack.jpg";
-import nirma from "./events/nirma.jpeg";
+import hack from "./events/hack.png";
+import nirma from "./events/nirma.png";
 
 export {
   logo,
