@@ -24,6 +24,8 @@ import python from "./tech/python.png";
 import sql from "./tech/sql.png";
 import expressjs from "./tech/expressjs.png";
 import c from "./tech/c.png";
+import postgre from './tech/postgre.png'
+import google_cloude from "./tech/google_cloude.png"
 
 import ps from "./company/ps.jpeg"
 
@@ -38,19 +40,21 @@ import events from "./nav/events.svg";
 import work from "./nav/work.svg";
 
 import anm from "./education/anm.png";
+import monash from "./education/monash_uni.png"
 
-import form from "./projects/form.png";
-import hms from './projects/hms.png';
+import mentora from "./projects/mentora.png"
+import yumyard from './projects/yumyard.png'
+import plotting from "./projects/plotting.png"
 
 import hack from "./events/hack.png";
 import nirma from "./events/nirma.png";
+import odoo from "./events/odoo.jpeg"
 
 export {
   logo,
   backend,
   creator,
   mobile,
-  form,
   web,
   github,
   menu,
@@ -82,7 +86,13 @@ export {
   sql,
   expressjs,
   anm,
-  hms,
   hack,
   nirma,
+  odoo,
+  postgre,
+  google_cloude,
+  monash,
+  mentora,
+  yumyard,
+  plotting,
 };

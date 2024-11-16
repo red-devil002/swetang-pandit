@@ -2,38 +2,35 @@ import {
   mobile,
   backend,
   creator,
-  form,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   ps,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   home,
   about,
   contact,
-  events,
   work,
   python,
   sql,
-  expressjs,
   c,
   anm,
-  hms,
   hack,
   nirma,
+  odoo,
+  postgre,
+  google_cloude,
+  monash,
+  mentora,
+  yumyard,
+  plotting,
 } from "../assets";
 
 export const navLinks = [
@@ -77,7 +74,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Python Developer",
+    title: "Data Science",
     icon: mobile,
   },
   {
@@ -143,9 +140,29 @@ const technologies = [
     name: "c",
     icon: c,
   },
+  {
+    name: postgre,
+    icon: postgre,
+  },
+  // {
+  //   name: google_cloude,
+  //   icon: google_cloude,
+  // },
 ];
 
 const hackathon = [
+  {
+    title: "Odoo Hackathon '24",
+    organizer_name: "Odoo Company, Infocity, Gandhinagar",
+    icon: odoo,
+    iconBg: "#383E56",
+    date: "14 July 2024",
+    points: [
+      "Out of more than 650+ registered teams from across India in Level 1 (online), only the top 150 were selected for the finals, and I am proud to be one of them.",
+      "This hackathon was not just a test of our technical skills but also a testament to our creativity and problem-solving abilities.",
+      "We were all given the same problem statement—creating a Library Management System.",
+    ],
+  },
   {
     title: "HackNUThon 5.0",
     organizer_name: "Nirma University",
@@ -187,31 +204,20 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Summer Internship",
-    company_name: "Pentech.ai",
-    icon: ps,
-    iconBg: "#383E56",
-    date: "April 2024 - June 2024",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
 ];
 
 const academics = [
   {
-    title: "10th Boards",
-    school_name: "Anand Niketan School, Mehsana",
-    icon: anm,
+    title: "Bachelor of Computer Science",
+    school_name: "Monash Univerity, Melbourne",
+    icon: monash,
     iconBg: "#383E56",
-    date: "April 2020 - March 2021",
+    date: "March 2025 - present",
     points: [
-      "I have completed my 10th boards from CBSE.",
-      "I recived total of 76% in 10th boards.",
+      "Main reason to choose Moansh was its ranking for engineering not only in Australia but all over the world.",
+      "Subjects -- specialization in AI and Data Science",
+      // "",
+      // "",
     ],
   },
   {
@@ -225,6 +231,17 @@ const academics = [
       "Subjects-- Math, Physics, Chemistry, Computer Science, English.",
       "I have completed my 12th boards from CBSE.",
       "I recived total of 80% in 12th boards.",
+    ],
+  },
+  {
+    title: "10th Boards",
+    school_name: "Anand Niketan School, Mehsana",
+    icon: anm,
+    iconBg: "#383E56",
+    date: "April 2020 - March 2021",
+    points: [
+      "I have completed my 10th boards from CBSE.",
+      "I recived total of 76% in 10th boards.",
     ],
   },
 ];
@@ -258,37 +275,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Nike Landing page",
+    name: "Mentora",
     description:
-      "This is a reimage project and just a static page for nike shoes.",
+      "My own thought LMS with AI integration in it for a better user experience.",
     tags: [
       {
-        name: "HTML",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "Tailwind css",
+        name: "Gemini",
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/red-devil002/tailwind-project",
+    image: mentora,
+    source_code_link: "https://github.com/red-devil002/mentora.git",
   },
   {
-    name: "Registration Form",
+    name: "YumYard",
     description:
-      "A single page form which takes input from user and store on the same page in the form of table.",
+      "A Food Ordering System is a food service technology solution that facilitates the seamless ordering process for customers and businesses.",
     tags: [
       {
-        name: "HTML",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "Google Api",
         color: "green-text-gradient",
       },
       {
@@ -296,29 +313,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: form,
-    source_code_link: "https://red-devil002.github.io/wd101/",
+    image: yumyard,
+    source_code_link: "https://github.com/red-devil002/YumYard.git",
   },
   {
-    name: "Hospital Management System",
+    name: "End-to-End Machine Learning Pipeline for Student Placement Prediction",
     description:
-      "A project created in my 1yr of programming in the Python language. This code takes different fields input in a hospital and stors it to the database and reflect when requested.",
+      "The project uses logistic regression for binary classification, taking student's academic and cognitive metrics to forecast their placement success.",
     tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "SQL",
+        name: "mlxtend lib",
         color: "green-text-gradient",
       },
       {
-        name: "Database",
+        name: "sklearn",
         color: "pink-text-gradient",
       },
     ],
-    image: hms,
-    source_code_link: "https://github.com/red-devil002/hospital-management",
+    image: plotting,
+    source_code_link: "https://github.com/red-devil002/end-to-end-ML-Project.git",
   },
 ];
 
