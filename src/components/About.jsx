@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Hello! I am Swetang Pandit, a dedicated and ambitious Computer Science student with a passion for exploring the vast and dynamic world of technology. Currently pursuing my degree, I am eager to contribute my enthusiasm and theoretical knowledge to real-world challenges.
+        I am a Bachelor of Computer Science student at Monash University, specializing in Data Science with an additional skill set in frontend and web development. My expertise lies in applying Python to solve analytical problems, while my knowledge of React, Next.js, and full-stack development allows me to build interactive and user-friendly applications. I am seeking an internship opportunity where I can apply my data-driven problem-solving skills and leverage my web development background to contribute to innovative solutions.
       </motion.p>
 
       <motion.div variants={fadeIn("", "", 0.1, 1)}>

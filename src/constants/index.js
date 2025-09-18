@@ -198,10 +198,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "April 2024 - June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Get to know how data pipeline works in real world.",
+      "Adding knowledge in Python for Analytics.",
+      "Exploring new terminologies and new AIs.",
     ],
   },
 ];
@@ -294,27 +293,6 @@ const projects = [
     ],
     image: mentora,
     source_code_link: "https://github.com/red-devil002/mentora.git",
-  },
-  {
-    name: "YumYard",
-    description:
-      "A Food Ordering System is a food service technology solution that facilitates the seamless ordering process for customers and businesses.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Google Api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: yumyard,
-    source_code_link: "https://github.com/red-devil002/YumYard.git",
   },
   {
     name: "End-to-End Machine Learning Pipeline for Student Placement Prediction",
